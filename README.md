@@ -11,7 +11,8 @@ It's self-use project, and **not suit with new Djangor**. You must familiar with
 2. rename the **two** dirs `quick_drf` as you like, mark it as `<project_name>`
 3. change the value of `project_name` in `<project_name>.settings.py` and `manage.py`.
 4. then, install dependencies by run `poetry install`
-5. start your server: `poetry run python manage.py runserver 0:8000`
+5. rename `env.tmp` to `.env` and fill your env variables.
+6. start your server: `poetry run python manage.py runserver 0:8000`
 
 ## Features
 
